@@ -32,13 +32,13 @@ git clone [https://github.com/tejasdhakate62-dev/MnemonicGen.git](https://github
 cd MnemonicGen
 
 # Compile the project
+```bash
 mvn clean compile
-Gemini said
-Here is the complete, single-block code for your README.md. I've included the badges, instructions, and proper formatting so you can just copy and paste the whole thing.
 
 1. Open the file
-Bash
+```bash
 nano ~/MnemonicGen/README.md
+
 2. Paste this entire block
 Markdown
 # 🔐 MnemonicGen
@@ -75,13 +75,14 @@ git clone [https://github.com/tejasdhakate62-dev/MnemonicGen.git](https://github
 cd MnemonicGen
 
 # Compile the project
+```bash
 mvn clean compile
 
 💻 How to Use
 1. Generate (Lock)
-Run this command and enter a strong Master Password. This will create a vault.enc file.
+```bash
 mvn exec:java -Dexec.mainClass="com.tejas.Generator"
 
 2. Recover (Unlock)
-Run this command and enter your Master Password to view your 24 words.
+```bash
 mvn exec:java -Dexec.mainClass="com.tejas.Decryptor"
