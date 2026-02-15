@@ -35,23 +35,6 @@ cd MnemonicGen
 ```bash
 mvn clean compile
 
-1. Open the file
-```bash
-nano ~/MnemonicGen/README.md
-
-2. Paste this entire block
-Markdown
-# 🔐 MnemonicGen
-
-A professional Java-based utility to generate 24-word mnemonic phrases and securely encrypt them using AES. Designed for secure, offline secret management.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-
----
-
 ## 🚀 Features
 * **Mnemonic Generation:** Automatically creates a secure 24-word recovery phrase.
 * **AES Encryption:** High-grade encryption to protect your data.
