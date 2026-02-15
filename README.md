@@ -16,9 +16,6 @@ A professional Java-based utility to generate 24-word mnemonic phrases and secur
 * **Zero-Cloud:** All data stays local in `vault.enc`.
 
 
-
----
-
 ## 🛠️ Setup & Installation
 
 ### Prerequisites
@@ -40,10 +37,6 @@ mvn clean compile
 * **AES Encryption:** High-grade encryption to protect your data.
 * **Master Password:** PBKDF2-style key derivation for secure locking.
 * **Zero-Cloud:** All data stays local in `vault.enc`.
-
-
-
----
 
 ## 🛠️ Setup & Installation
 
