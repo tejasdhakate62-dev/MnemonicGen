@@ -28,7 +28,7 @@ A professional Java-based utility to generate 24-word mnemonic phrases and secur
 git clone [https://github.com/tejasdhakate62-dev/MnemonicGen.git](https://github.com/tejasdhakate62-dev/MnemonicGen.git)
 cd MnemonicGen
 
-# Compile the project
+### Compile the project
 ```bash
 mvn clean compile
 
@@ -38,7 +38,7 @@ mvn clean compile
 * **Master Password:** PBKDF2-style key derivation for secure locking.
 * **Zero-Cloud:** All data stays local in `vault.enc`.
 
-## 🛠️ Setup & Installation
+### 🛠️ Setup & Installation
 
 ### Prerequisites
 * **Java 17+**
@@ -46,20 +46,20 @@ mvn clean compile
 
 ### Installation
 ```bash
-# Clone the repository
+### Clone the repository
 git clone [https://github.com/tejasdhakate62-dev/MnemonicGen.git](https://github.com/tejasdhakate62-dev/MnemonicGen.git)
 cd MnemonicGen
 
-# Compile the project
+### Compile the project
 ```bash
 mvn clean compile
 
-💻 How to Use
-1. Generate (Lock)
+### 💻 How to Use
+### 1. Generate (Lock)
 ```bash
 mvn exec:java -Dexec.mainClass="com.tejas.Generator"
 
-2. Recover (Unlock)
+### 2. Recover (Unlock)
 ```bash
 mvn exec:java -Dexec.mainClass="com.tejas.Decryptor"
 
