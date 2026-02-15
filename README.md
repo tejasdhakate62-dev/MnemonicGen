@@ -24,9 +24,9 @@ A professional Java-based utility to generate 24-word mnemonic phrases and secur
 
 ### Installation
 ```bash
-# Clone the repository
-git clone [https://github.com/tejasdhakate62-dev/MnemonicGen.git](https://github.com/tejasdhakate62-dev/MnemonicGen.git)
-cd MnemonicGen
+## Clone the repository
+`git clone [https://github.com/tejasdhakate62-dev/MnemonicGen.git](https://github.com/tejasdhakate62-dev/MnemonicGen.git)`
+`cd MnemonicGen`
 
 ### Compile the project
 ```bash
