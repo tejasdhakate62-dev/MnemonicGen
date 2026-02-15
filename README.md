@@ -69,3 +69,10 @@ mvn exec:java -Dexec.mainClass="com.tejas.Generator"
 2. Recover (Unlock)
 ```bash
 mvn exec:java -Dexec.mainClass="com.tejas.Decryptor"
+
+MnemonicGen/
+├── src/main/java/com/tejas/
+│   ├── Generator.java  # Handles phrase creation & encryption
+│   └── Decryptor.java  # Handles phrase recovery & decryption
+├── vault.enc           # Encrypted data (Do not upload!)
+└── pom.xml             # Project dependencies
